@@ -1,5 +1,6 @@
 <?php
 
+use App\Http\Livewire\Action;
 use App\Http\Livewire\Form;
 use App\Http\Livewire\Home;
 use App\Http\Livewire\Post;
@@ -25,5 +26,7 @@ route::get('/post',Post::class);
 route::get('/user',User::class);
 
 route::get('/home/{name?}',Home::class);
-
+//form
 route::Get('/form',Form::class);
+//action
+route::Get('/action', Action::class);
