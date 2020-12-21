@@ -1,6 +1,7 @@
 <?php
 
 use App\Http\Livewire\Action;
+use App\Http\Livewire\Contact;
 use App\Http\Livewire\Form;
 use App\Http\Livewire\Home;
 use App\Http\Livewire\Post;
@@ -33,3 +34,6 @@ route::Get('/form',Form::class);
 route::Get('/action', Action::class);
 //product
 route::Get('/product',Product::class);
+//contact
+route::get('/contact',Contact::class);
+
